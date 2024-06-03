@@ -31,3 +31,7 @@
 ⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ### Baz 2021-2024 - The Impostor - Among Us Bot for Discord
 # ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ
+
+
+
+#### Please ignore copyright stamps, I was young and thought it was cool
