@@ -1,0 +1,121 @@
+{
+  "Toxic Mask":{
+    "price":2000,
+    "desc":"This mask will allow you to complete tasks on the Polus map",
+    "emoji":"<:toxic:911658390424539197>",
+    "type":"t",
+    "aliases":["mask", "toxic", "mask1"]
+  },
+  "Sand":{
+    "price":100,
+    "desc":"You can use sand against someone [impostor] but you won't know who is the impostor, but their cooldown resets\nSuggested by ROYZER#7999",
+    "emoji":"<:sandy:911655676969889813>",
+    "type":"p",
+    "aliases":["sand"]
+  },
+  "Golden Bean":{
+    "price":1000000000,
+    "desc":"This item can only be afforded by the best crewmates out there - Gives a 50% multiplier",
+    "emoji":"<:goldenbean:911612797920608256>",
+    "type":"p",
+    "aliases":["bean", "gold", "golden"]
+  },
+  "Head Set":{
+    "price":2000,
+    "desc":"This allows you to complete tasks on the Airship map",
+    "emoji":"<:headset:911658390630043669>",
+    "type":"t",
+    "aliases":["headset", "earphones", "head set", "head"]
+  },
+  "Scuba Mask":{
+    "price":2000,
+    "desc":"This item allows you to complete tasks on the Submerged map",
+    "emoji":"<:scuba:911658390487461969>",
+    "type":"t",
+    "aliases":["mask2", "scuba", "scuba mask"]
+  },
+  "Plant":{
+    "price":2000,
+    "desc":"This item allows you to complete tasks on the Mira HQ map",
+    "emoji":"<:plant:911664579719856198>",
+    "type":"t",
+    "aliases":["plant"]
+  },
+  "Diamond Bean":{
+    "price":10000000000,
+    "desc":"This item will give you a 200% multiplier, meaning you get double the amount of beans!",
+    "emoji":"<:diamondbean:914149176974114908>",
+    "type":"p",
+    "aliases":["diamond"]
+  },
+  "Emerald Bean":{
+    "price":100000000,
+    "desc":"This item will give you a 40% multiplier",
+    "emoji":"<:emeraldbean:914151580629078046>",
+    "type":"p",
+    "aliases":["emerald", "em"]
+  },
+  "Can of Beans":{
+    "price":0,
+    "desc":"Gives you a random number of beans",
+    "emoji":"<:tin:914207847242432572>",
+    "type":"lb",
+    "aliases":["can", "tin"]
+  },
+  "Star":{
+    "price":0,
+    "desc":"A lootbox that can only be won by voting or in giveaways!",
+    "emoji":"<:starcmc:914472001140310026>",
+    "type":"lb",
+    "aliases":["star", "stars"]
+  },
+  "Polus Lootbox":{
+    "price":0,
+    "desc":"This is a description for the polus lootbox",
+    "emoji":"<:polus:914518988002852905>",
+    "type":"lb",
+    "aliases":["polus", "lootbox"]
+  },
+  "Mira Lootbox":{
+    "price":0,
+    "desc":"Null",
+    "emoji":"<:mirashards:914518926971514982>",
+    "type":"lb",
+    "aliases":["mira"]
+  },
+  "Airship Lootbox":{
+    "price": 0,
+    "desc":"Null",
+    "emoji":"<:toppat:914518916141826098>",
+    "type":"lb",
+    "aliases":["air", "airship"]
+  },
+  "Present":{
+      "price":0,
+      "desc":"This item was only obtainable during the first Christmas Event in 2021!",
+      "emoji":"<:present:911658390604873778>",
+      "type":"c",
+      "aliases":["present", "gift"]
+  },
+  "Lotto Ticket":{
+    "price":0,
+    "desc":"You can enter the Lottery buy using one of these! (Can only be bought using $lotto command)",
+    "emoji":"<:lotto:922535435962564608>",
+    "type":"t",
+    "aliases":["ticket", "lottery", "lotto"]
+  },
+  "Cake":{
+    "price":0,
+    "desc":"This item can only be obtained during the 2022 birthday event!",
+    "emoji":"<:cake:928665395559288832>",
+    "type":"c",
+    "aliases":["cake", "chocolate", "suscake"]
+  },
+  "Cupcake":{
+    "price":0,
+    "desc":"This item was only obtainable during the 2022 birthday event!",
+    "emoji":"<:cupcake:928666161388851300>",
+    "type":"c",
+    "aliases":["cupcake", "cup", "suscupcake"]
+  }
+}

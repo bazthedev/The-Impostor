@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "The-Impostor"
+version = "1.9.8"
+description = "This is the code for a discord bot (The Impostor)"
+authors = ["Baz"]
+
+[tool.poetry.dependencies]
+discord.py = "1.7.3"
+python = "^3.8"
+flask = "^1.1.2"
+replit = "^2.0.0"
+dblpy = "^0.4.0"
+colorama = "^0.4.4"
+youtube-dl = "^2021.3.25"
+patreon = "^0.5.0"
+schedule = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

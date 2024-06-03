@@ -1,0 +1,50 @@
+{
+  "mira":{
+    "beansa":1000,
+    "beansb":5000,
+    "items":[
+      "Plant",
+      "Plant",
+      "Plant"
+      ,"Plant"
+      ,"Plant"
+      ,"Plant",
+      "Plant",
+      "Plant",
+      "Plant",
+      "Emerald Bean"
+    ]
+  },
+  "can":{
+    "beansa":10000,
+    "beansb":50000,
+    "items":[
+      "Golden Bean",
+      "Diamond Bean",
+      "Emerald Bean"
+    ]
+  },
+  "polus":{
+    "beansa":10000,
+    "beansb":50000,
+    "items":[
+      "Toxic Mask",
+      "Diamond Bean"
+    ]
+  },
+  "air":{
+    "beansa":100000,
+    "beansb":500000,
+    "items":[
+      "Golden Bean"
+    ]
+  },
+  "star":{
+    "beansa":1000000,
+    "beansb":5000000,
+    "items":[
+      "Can of Beans",
+      "Star"
+    ]
+  }
+}
