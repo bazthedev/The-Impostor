@@ -280,45 +280,6 @@ class Basic(commands.Cog):
       else:
         return "User has no badges"
     await ctx.send(embed=embed)
-
-  @commands.command()
-  async def nyrone(self, ctx):
-    embed = discord.Embed(
-      title="<:ping:926151825009299506> New Message <:ping:926151825009299506>",
-      description="Join the Nyrone network today!\nWhy you should: We are trying our best to start a Server Hosting Providers and we need help to improve, make sure to join us now!\nJoin our Discord: https://nyrone.net/discord\nCheck out our website:\nhttps://nyrone.net",
-      colour=discord.Colour.red()
-    )
-    await ctx.send(embed=embed)
-
-  @commands.command()
-  async def scrappie(self, ctx):
-    if await banned(ctx):
-      return
-    embed = discord.Embed(
-      title="<:ping:926151825009299506> New Message <:ping:926151825009299506>",
-      description="Add Scrappie to your server today!\nWhy you should: Scrappie is a new economy bot with lots of new features such as rob commands and a shop with tons of cool items!\nAdd the bot here: https://bazbots.github.io/The-Impostor/scrappie",
-      colour=discord.Colour.red()
-    )
-    await ctx.send(embed=embed)
-    await ctx.message.delete()
-
-  @commands.command(aliases=["sponsor", "sponsors", "partner"])
-  async def partners(self, ctx):
-    if await banned(ctx):
-      return
-    embed = discord.Embed(
-      title="Current Bot Partners:",
-      description="If you want to become a partner, fill out the form (click the blue text) and join my support server! https://discord.gg/Sun4mtFjwE",
-      colour=discord.Colour.red(),
-      url="https://forms.gle/QMBmWm9f9ZNXdHLe9"
-    )
-    embed.set_thumbnail(url="")
-    embed.add_field(name="Nyrone Network", value="Join the Nyrone network today!\nWhy you should: We are trying our best to start a Server Hosting Providers and we need help to improve, make sure to join us now!\nJoin our\nDiscord: https://nyrone.net/discord\nCheck out our website:\nhttps://nyrone.net/", inline=True)
-    embed.add_field(name="Scrappie", value="Add Scrappie to your server today!\nWhy you should: Scrappie is a new economy bot with lots of new features such as rob commands and a shop with tons of cool items!\nAdd the bot here: https://bazbots.github.io/The-Impostor/scrappie", inline=True)
-    embed.add_field(name="Jenson308", value="Join the Jenson308 community today!\nJenson308 is a small youtuber who is hoping to be the next big thing!\nJoin his server: https://discord.gg/j2EsyQb6jH\nSub to his YouTube: https://bazbots.github.io/The-Impostor/jenson", inline=True)
-    embed.add_field(name="Serveur des combattants", value="Salut nous sommes le serv des combattants on est le bests - Hi we are the fighters server we are the best", inline=True)
-    await ctx.send(embed=embed)
-
     
 def setup(client):
   client.add_cog(Basic(client))
