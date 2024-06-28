@@ -319,37 +319,6 @@ class Basic(commands.Cog):
     embed.add_field(name="Serveur des combattants", value="Salut nous sommes le serv des combattants on est le bests - Hi we are the fighters server we are the best", inline=True)
     await ctx.send(embed=embed)
 
-  @commands.command()
-  async def lights_slaves(self, ctx):
-    embed = discord.Embed(
-      title="——Light's Slaves——",
-      description=
-"""
-We Are a extremely fun discord server and we would like for you to join us what we will offer-
-
-good staff
-
-Nice members
-
-Fun bots 
-
-Good rules
-
-Accepting women 
-————————————
-What we need from you
-
-Active chat
-
-Money
-
-And a friendly person!
-
-The link for our server is https://discord.gg/mmD9pYEaMb""",
-      color=discord.Colour.red()
-    )
-    await ctx.send(embed=embed)
-
     
 def setup(client):
   client.add_cog(Basic(client))
