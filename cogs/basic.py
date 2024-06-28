@@ -130,7 +130,6 @@ class Basic(commands.Cog):
     #embedTwo.add_field(name="Halloween Commands", value="trickortreat\nhauntedhouse", inline=True)
     #embedTwo.add_field(name="Christmas Commands", value="gift {user}\ncracker {user}", inline=True)
     #embedTwo.add_field(name="Birthday Commands", value="cake\nopen", inline=True)
-    #embedTwo.add_field(name="Partners", value="partners\nscrappie | https://bazbots.github.io/The-Impostor/scrappie\nnyrone | https://nyrone.net/")
     embedTwo.add_field(name="Special Commands", value="6", inline=True)
     embedTwo.add_field(name="Patreon Commands", value="patreon\nplans\nredeem {code}", inline=True)
     embedTwo.add_field(name="Crewmate Plan commands:", value="develop", inline=True)
